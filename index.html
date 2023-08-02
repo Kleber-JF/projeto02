@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/telefone.png" alt="simbolo telefone cor vermelho" />
+            <h1>Agenda de contatos</h1>
+        </header>
+        <section>
+            <form id="form-cadastro">
+                <input type="text" id="nome-cadastro" required placeholder="Nome completo" />
+                <input type="tel" id="tel-cadastro" required placeholder="Telefone" maxlength="14"/>
+                <button type="submit">Cadastrar contato</button>
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
