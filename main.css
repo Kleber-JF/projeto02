@@ -36,11 +36,11 @@ header h1 {
 .container h1, 
 .container th
  {
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .container td {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 form {
